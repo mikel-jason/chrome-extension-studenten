@@ -18,7 +18,7 @@ function replaceText(node) {
     node.nodeValue = value
 }
 
-if (window.location.hostname.toLowerCase().includes('bdsu')) {
-    window.onload = findAndReplace()
+window.addEventListener('load', () => {
+    findAndReplace()
     setTimeout(findAndReplace, 1500)
-}
+})
