@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Studenten beraten Unternehmen",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Tauscht im BDSU 'Studierende(n)' gegen 'Studenten' aus",
     "content_scripts": [
         {
@@ -10,6 +10,7 @@
                 "https://*.bdsu.de/*",
                 "https://*.bdsu-kongress.de/*",
                 "https://*.bdsu-alumni.de/*",
+                "https://*.bdsu-connect.de/*",
                 "https://*.bdsu.it/*"
             ],
             "js": ["content.js"],
